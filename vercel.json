@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "QA 접근경로.html",
+      "src": "개별보고서.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/QA 접근경로.html"
+      "dest": "/개별보고서.html"
     }
   ]
 } 
